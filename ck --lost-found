@@ -1,0 +1,11 @@
+[33m33a02eb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: checkout: moving from main to main
+[33m33a02eb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{1}: checkout: moving from main to main
+[33m33a02eb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{2}: checkout: moving from main to main
+[33m33a02eb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{3}: commit: Removed .idea/, target/, and HELP.md
+[33m80885a7[m HEAD@{4}: commit: Added .gitignore and tracked HELP.md
+[33mf1be63e[m HEAD@{5}: checkout: moving from master to main
+[33m735bad1[m HEAD@{6}: rebase (finish): returning to refs/heads/master
+[33m735bad1[m HEAD@{7}: rebase (pick): Initial commit of project
+[33mf1be63e[m HEAD@{8}: rebase (start): checkout HEAD
+[33mf1be63e[m HEAD@{9}: checkout: moving from master to main
+[33md4747f4[m HEAD@{10}: commit (initial): Initial commit of project

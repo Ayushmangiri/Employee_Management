@@ -27,8 +27,8 @@ public class EmployeesController {
     public List<Employee> getEmployeesController() {
         return employeeService.getEmployeeList();
     }
-    @DeleteMapping("/delete")
-    public String deleteEmployees( Employee employee){
-        return employeeService.deleteEmployees(employee);
-    }
+//    @DeleteMapping("/delete")
+//    public String deleteEmployees( Employee employee){
+//        return employeeService.deleteEmployees(employee);
+//    }
 }
