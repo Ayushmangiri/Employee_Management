@@ -1,29 +1,49 @@
 package com.example.employeemanagement.Model;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "employees")
 public class Employee {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
     private String name;
-    private String Position ;
-     public Employee (String name,String position){
-         this.name = name;
-         this.Position=position;
+    private String position;
 
-     }
+    public Employee() {
 
-     public String getName(){
-         return name;
+    }
 
-     }
+    public Employee(String name, String position) {
+        this.name = name;
+        this.position = position;
+    }
+
+    // Getters & Setters
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public void setName(String name) {
         this.name = name;
     }
 
     public void setPosition(String position) {
-        Position = position;
-    }
-
-    public String getPosition() {
-        return Position;
+        this.position = position;
     }
 }

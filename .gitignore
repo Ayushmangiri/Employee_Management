@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+# IntelliJ IDEA
+.idea/
+
+target/
+.idea/
+04/
+s
+ter
+
+
+# System Files
+*.DS_Store
+
